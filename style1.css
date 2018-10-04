@@ -1,11 +1,45 @@
-h1{
+.wrap{
+	background-color: lightsalmon;
+	min-width: 650px;
+	margin:auto;
+	overflow:auto;
+}
+
+.wrap h1{
+	padding-left: 13px;
 	color:crimson;
 }
-body{
+
+.wrap h2, h3{
+	padding-left: 13px;
+}
+
+.content{
+	width:82%;
+	float:right;
+	overflow:auto;
+	padding-left:1%;
+}
+
+.content, aside{
+	height:500px;
+}
+
+#contentHome{
 	background-image: url(img/background2.png);
 	background-repeat: repeat, repeat;
-	background-attachment: fixed;
+	background-attachment: fixed; 
 }
-/*img{
-	border: rgb(10,0,200) solid 3px;   sostituito da snippet interno all'index e relativo ad un'immagine
-}*/
+#contentChangelog{
+	background-color: rgb(240,240,240);
+}
+
+aside{
+	background-color: palegreen;
+	float: left;
+	width:17%;
+}
+
+aside ul{
+	list-style:none;
+}
