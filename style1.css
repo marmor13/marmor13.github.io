@@ -30,12 +30,14 @@
 	background-repeat: repeat, repeat;
 	background-attachment: fixed; 
 }
-#contentChangelog{
+#content2{
 	background-color: rgb(240,240,240);
 }
 
 aside{
 	background-color: palegreen;
+	font-size: 18px;
+	line-height: 1.6;
 	float: left;
 	width:17%;
 }
